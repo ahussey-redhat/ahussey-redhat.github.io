@@ -15,7 +15,7 @@ const config: Config = {
   organizationName: 'ahussey-redhat',
   projectName: 'ahussey-redhat.github.io',
   deploymentBranch: 'gh-pages',
-  trailingSlash: false,
+  trailingSlash: true,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
