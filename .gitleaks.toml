@@ -1,0 +1,7 @@
+[allowlist]
+description = "Global Allowlist"
+
+paths = [
+    # Ignore test user credentials
+    '''blog\/2024-08-26-welcome\/index.mdx$''',
+]
