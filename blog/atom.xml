@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://ahussey-redhat.github.io/blog</id>
+    <title>Alex Hussey Blog</title>
+    <updated>2024-08-26T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://ahussey-redhat.github.io/blog"/>
+    <subtitle>Alex Hussey Blog</subtitle>
+    <icon>https://ahussey-redhat.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>https://ahussey-redhat.github.io/blog/welcome</id>
+        <link href="https://ahussey-redhat.github.io/blog/welcome"/>
+        <updated>2024-08-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[{/ truncate /}]]></summary>
+        <content type="html"><![CDATA[
+<p>Hello and welcome to my blog + documentation website!</p>
+<p>As a quick intro, my name is Alex Hussey. I'm a Solution Architect with Red Hat, and based in Canberra, Australia.
+I am an Open and Public Source advocate, with a passion for cloud native application development.
+My background is heavily on the infrastructure side of things, from traditional application deployment on physical servers, through to CI/CD and Service Meshes deployed on Kubernetes.
+I heavily rely on automation tools such as Ansible Core, and Ansible Automation Platform to achieve my desired states.
+This becomes evident if you look at any of my GitHub repos that have a <code>-infra</code> suffix.</p>
+<p>What's next?
+Well, throughout my career I have used various programming languages to script and create applications that generally have a infrastructure focus.
+Writing programs and scripts has always created an enjoyable puzzle for me through learning the different syntaxes, semantics and best practices, as well as translating the challenge into a code-able solution.</p>
+<p>Through this interest, I started writing applications to solve real life challenges. An example of this, is when my work sent out a challenge:</p>
+<blockquote>
+<p>Create a silent auction application in three weeks</p>
+</blockquote>
+<p>I saw this as an opportunity to further my skills in a particular language (Java), as well as get a better understanding of full application development workflows.
+Thankfully I had a mentor <a href="https://github.com/tim-stasse" target="_blank" rel="noopener noreferrer">@tim-stasse</a>, who was able to part some of his wisdom to me.</p>
+<p>You can see the resulting application via the following QA preview:</p>
+<p><a href="https://silent-auction.qa.blueguardian.co/" target="_blank" rel="noopener noreferrer">QA live web app</a>
+<a href="https://silent-auction-backend.qa.blueguardian.co/swagger-ui" target="_blank" rel="noopener noreferrer">QA live Swagger UI</a></p>
+<div class="language-yaml codeBlockContainer_z_qO theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_stqI"><pre tabindex="0" class="prism-code language-yaml codeBlock_AYMj thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_xMUx"><span class="token-line" style="color:#393A34"><span class="token key atrule" style="color:#00a4db">users</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic"># Test Admin</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">-</span><span class="token plain"> </span><span class="token key atrule" style="color:#00a4db">username</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> admin@example.com</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   </span><span class="token key atrule" style="color:#00a4db">password</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> Password123</span><span class="token tag" style="color:#00009f">!</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic"># Test User</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">-</span><span class="token plain"> </span><span class="token key atrule" style="color:#00a4db">username</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> test.user@example.com</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   </span><span class="token key atrule" style="color:#00a4db">password</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> Password123</span><span class="token tag" style="color:#00009f">!</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic"># OIDC</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token key atrule" style="color:#00a4db">client ID</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> frontend</span><br></span></code></pre><div class="buttonGroup_tJSQ"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_d5hY" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_NvF3"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_Wfrf"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>Application GitHub repositories:</p>
+<ul>
+<li><a href="https://github.com/users/ahussey-redhat/projects/1/views/1" target="_blank" rel="noopener noreferrer">project</a></li>
+<li><a href="https://github.com/ahussey-redhat/silent-auction-frontend" target="_blank" rel="noopener noreferrer">frontend</a></li>
+<li><a href="https://github.com/ahussey-redhat/silent-auction-backend" target="_blank" rel="noopener noreferrer">backend</a></li>
+<li><a href="https://github.com/ahussey-redhat/silent-auction-demo-infra" target="_blank" rel="noopener noreferrer">infra</a></li>
+</ul>]]></content>
+        <author>
+            <name>Alex Hussey</name>
+            <uri>https://github.com/ahussey-redhat</uri>
+        </author>
+        <category label="Hello" term="Hello"/>
+    </entry>
+</feed>
