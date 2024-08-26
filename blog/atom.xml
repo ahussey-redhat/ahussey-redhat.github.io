@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://ahussey-redhat.github.io/blog</id>
+    <id>https://ahussey-redhat.github.io/blog/</id>
     <title>Alex Hussey Blog</title>
     <updated>2024-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://ahussey-redhat.github.io/blog"/>
+    <link rel="alternate" href="https://ahussey-redhat.github.io/blog/"/>
     <subtitle>Alex Hussey Blog</subtitle>
     <icon>https://ahussey-redhat.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://ahussey-redhat.github.io/blog/welcome</id>
-        <link href="https://ahussey-redhat.github.io/blog/welcome"/>
+        <id>https://ahussey-redhat.github.io/blog/welcome/</id>
+        <link href="https://ahussey-redhat.github.io/blog/welcome/"/>
         <updated>2024-08-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[{/ truncate /}]]></summary>
         <content type="html"><![CDATA[
